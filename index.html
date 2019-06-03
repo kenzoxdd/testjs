@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container">
+		<div>
+			<div>
+				<h2 class="vopros1">Самый большой штат США - это...?</h2>
+			</div>
+			<div class="border py-3 px-3 otvet1" >Аляска</div>
+			<div class="border py-3 px-3 otvet2" >Техас</div>
+			<div class="border py-3 px-3 otvet3">Калифорния</div>
+		</div>
+		
+	</div>
+	<script type="text/javascript">
+		document.querySelector (".otvet1").onclick = function(){
+			alert("Правильный ответ.");
+			document.querySelector(".otvet4").style.display = "block";
+			document.querySelector(".otvet5").style.display = "block";
+			document.querySelector(".otvet6").style.display = "block";
+			document.querySelector(".otvet2").style.display = "none";
+			document.querySelector(".otvet3").style.display = "none";
+			document.querySelector(".otvet1").style.display = "none";
+			document.querySelector(".vopros1").style.display = "none";
+			document.querySelector(".vopros2").style.display = "block";
+		}
+		document.querySelector (".otvet2").onclick = function(){
+			alert("НЕПРАВИЛЬНО!")
+
+		}
+		document.querySelector (".otvet3").onclick = function(){
+			alert("Погугли!")
+		}
+	</script>
+	<div class="container">
+		<div>
+			<h2 class="vopros2" style="display:none;"> Как называется самая длинная река на земле?</h2>
+		</div>
+		<div class="border py-3 px-3 otvet4" style="display:none">Нил</div>
+		<div class="border py-3 px-3 otvet5" style="display:none">Амазонка</div>
+		<div class="border py-3 px-3 otvet6" style="display:none">Конго</div>
+	</div>
+	<script type="text/javascript">
+		document.querySelector (".otvet4").onclick = function(){
+			alert("НЕПРАВИЛЬНО!")
+		}
+		document.querySelector (".otvet5").onclick = function(){
+			alert("Правильный ответ.")
+			document.querySelector(".otvet4").style.display = "none";
+			document.querySelector(".otvet6").style.display = "none";
+			document.querySelector(".otvet5").style.display = "none";
+			document.querySelector(".vopros2").style.display = "none";
+			document.querySelector(".vopros3").style.display = "block";
+			document.querySelector(".otvet7").style.display = "block";
+			document.querySelector(".otvet8").style.display = "block";
+			document.querySelector(".otvet9").style.display = "block";
+			document.querySelector(".otvet5").style.opacity = 0
+		}
+		document.querySelector (".otvet6").onclick = function(){
+			alert("Погугли!")
+		}
+	</script>
+		<div class="container">
+		<div>
+			<h2 class="vopros3" style="display:none;">Когда закончилась Великая Отечественная Война?</h2>
+		</div>
+		<div class="border py-3 px-3 otvet7" style="display:none">9 мая, 1945 года</div>
+		<div class="border py-3 px-3 otvet8" style="display:none">11 ноября 1918</div>
+		<div class="border py-3 px-3 otvet9" style="display:none">7 мая, 1945 года</div>
+	</div>
+	<script type="text/javascript">
+		document.querySelector (".otvet7").onclick = function(){
+			alert("НЕПРАВИЛЬНО!")
+		}
+		document.querySelector (".otvet8").onclick = function(){
+			alert("Погугли!")
+			
+		}
+		document.querySelector (".otvet9").onclick = function(){
+			alert("Правильный ответ.")
+			document.querySelector(".otvet7").style.display = "none";
+			document.querySelector(".otvet8").style.display = "none";
+			document.querySelector(".otvet9").style.display = "none";
+			document.querySelector(".vopros3").style.display = "none";
+			document.querySelector(".vopros4").style.display = "block";
+			document.querySelector(".otvet10").style.display = "block";
+			document.querySelector(".otvet11").style.display = "block";
+			document.querySelector(".otvet12").style.display = "block";
+			document.querySelector(".otvet13").style.display = "block";
+			document.querySelector(".otvet9").style.opacity = 0
+			
+		}
+	</script>
+		<div class="container">
+		<div>
+			<h2 class="vopros4" style="display:none;">Статуя Свободы в Нью-Йорке была подарена...</h2>
+		</div>
+		<div class="border py-3 px-3 otvet10" style="display:none">Бельгией</div>
+		<div class="border py-3 px-3 otvet11" style="display:none">Великобританией</div>
+		<div class="border py-3 px-3 otvet12" style="display:none">Францией</div>
+		<div class="border py-3 px-3 otvet13" style="display:none">Канадой</div>
+	</div>
+	<script type="text/javascript">
+		document.querySelector (".otvet10").onclick = function(){
+			alert("НЕПРАВИЛЬНО!")
+		}
+		document.querySelector (".otvet11").onclick = function(){
+			alert("Погугли!")
+			
+		}
+		document.querySelector (".otvet12").onclick = function(){
+			alert("Правильный ответ.")
+			document.querySelector(".otvet10").style.opacity = "none"
+			document.querySelector(".otvet11").style.opacity = "none"
+			document.querySelector(".otvet12").style.opacity = "none"
+			document.querySelector(".otvet13").style.opacity = "none"
+			document.querySelector(".otvet14").style.opacity = "block"
+			document.querySelector(".otvet15").style.opacity = "block"
+			document.querySelector(".otvet14").style.opacity = "block"
+			document.querySelector(".vopros4").style.opacity = "none"
+			document.querySelector(".vopros5").style.opacity = "block"
+			document.querySelector(".otvet12").style.opacity = 0
+		}
+		document.querySelector (".otvet13").onclick = function(){
+			alert("Неа")
+		}
+	</script>
+		<div class="container">
+		<div>
+			<h2 class="vopros5" style="display:none;">Можете ли вы слышать звуки в открытом космосе?</h2>
+		</div>
+		<div class="border py-3 px-3 otvet14" style="display:none">Да</div>
+		<div class="border py-3 px-3 otvet15" style="display:none">Нет</div>
+	</div>
+	<script type="text/javascript">
+		document.querySelector (".otvet14").onclick = function(){
+			alert("НЕПРАВИЛЬНО!")
+		}
+		document.querySelector (".otvet15").onclick = function(){
+			alert("Правильный ответ.")
+			document.querySelector(".otvet15").style.opacity = 0
+		}
+</body>
+</html>
